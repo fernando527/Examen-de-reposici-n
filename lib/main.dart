@@ -45,12 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
       });
       respuesta();
       _controller.clear();
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-            content: Text(
-                'La pregunta debe terminar con un signo de interrogación y no debe estar vacia')),
-      );
+    } 
     }
   }
 
